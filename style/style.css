@@ -1,0 +1,157 @@
+body{
+    background-color: #000;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: #353434 solid 2px;
+    margin-bottom: 10px;
+}
+.navbar{
+    margin-top: 20px;
+}
+.contener{
+    color: #fff;
+    margin: auto;
+    box-shadow: 0 0 1px #fff;
+    max-width: 400px;
+    padding: 10px;
+}
+form{
+    
+    justify-content: center;
+}
+.contener label{
+    color: #fff;
+    border-width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    
+
+}
+.button button{
+    background-color: blue;
+    color: #000;
+    margin: 10px;
+    font-size: 20px;
+}
+.contener input{
+    color: blue;
+    height: 20px;
+    font-size: 18px;
+    
+}
+h6{
+  
+    font-size: 30px;
+    color: #eae9e8;
+    padding: 10px;
+    
+    text-decoration: none;
+    margin: 10px;
+}
+.navbar a{
+    border: #353434 solid 2px;
+    border-radius: 25%;
+    font-size: 30px;
+    color: #eae9e8;
+    padding: 10px;
+    
+    text-decoration: none;
+    margin: 10px;
+}
+.navbar a:visited{
+
+    color: #eae9e8;
+}
+.conteneur{
+display: flex;
+flex-direction: row;
+justify-content: baseline;
+background-color: #000;
+
+}
+.case{
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+    
+    max-width: 30%;;
+    margin: auto;
+    min-height: 485px;
+    overflow: hidden;
+    
+
+    
+}
+.imag{
+
+        display: block;
+        height: 80%;
+        width: auto;
+        -o-object-fit: cover;
+        object-fit: cover;
+        margin: auto;
+        
+}
+.nvoitur{
+    margin: auto;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.btn{ 
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.btn button{
+    font-size: 30px;
+    margin: 10px;
+    padding: 10%;
+    cursor: pointer;
+    
+}
+.choix{
+    background-color: #000;
+    color: #eae9e8;
+}
+.imgg{
+    max-width: 100%;
+}
+.det{
+    background-color: #fff;
+    border:1px solid #000;
+}
+.contenair{
+   max-width:500px ;
+   margin:auto;
+   color: #eae9e8;
+}
+.parent{
+    max-width:500px ;
+    margin:auto;
+    color: #eae9e8;
+}
+.child textarea+input{
+    width: 400px;
+}
+.detail{
+    border: 2px solid #eae9e8;
+    width: 400px;
+    height: 100px;
+
+}
+.reservation{
+    border: 2px solid #eae9e8;
+    width: 400px;
+    
+}
